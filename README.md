@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td>
-      <img src="./public/mob-1.jpg" alt="MobileImage 1">
+      <img src="./public/mob-3.jpg" alt="MobileImage 1">
     </td>
     <td>
       <img src="./public/mob-2.jpg" alt="MobileImage 2">
@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td>
-      <img src="./public/mob-3.jpg" alt="MobileImage 3">
+      <img src="./public/mob-1.jpg" alt="MobileImage 3">
     </td>
   </tr>
 </table>
