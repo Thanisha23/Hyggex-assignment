@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
         </svg>
       </div>
       {isOpen && (
-        <div className="md:hidden absolute top-[68px] left-0 w-full bg-white shadow-md z-10">
+        <div className="sm:hidden absolute top-[68px] left-0 w-full bg-white shadow-md z-10">
           <ul className="flex flex-col items-center gap-4 py-4 text-[16px] font-inter text-[#3A3740] cursor-pointer " >
             <li className='hover:text-black'>Home</li>
             <li className='hover:text-black'>Flashcard</li>
