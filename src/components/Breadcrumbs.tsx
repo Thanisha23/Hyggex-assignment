@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 interface BreadcrumbProps {
-  items: { label?: string; link?: string; img?:string }[];
+  items: { label?: string; link?: string; img?:string; active:boolean }[];
 }
 
 const Breadcrumbs: React.FC<BreadcrumbProps> = ({ items }) => {
@@ -22,7 +22,7 @@ const Breadcrumbs: React.FC<BreadcrumbProps> = ({ items }) => {
               <a
                 href={item.link}
                 className={`text-sm transition-colors duration-300 ${
-                  isActive(item.link)
+                  isActive(item.link) || item.active
                     ? 'text-blue-600 font-semibold hover:text-blue-800'
                     : 'text-[#696671] font-medium hover:text-gray-700'
                 }`}

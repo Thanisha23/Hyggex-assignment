@@ -23,11 +23,13 @@ const Dashboard:React.FC = () => {
     <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] text-[19px] md:text-[32px] pt-[44px] md:pt-[64px] font-bold font-montserrat pb-[43px] md:pb-[56px] px-[30px]'>Relations and Functions ( Mathematics )</h1>
     <div className='flex justify-center items-center gap-[25px] md:gap-[30px]'>
    {sections.map((item,index) => (
-     <p key={index} className="relative group ">
-     <span className='font-inter text-[15px] md:text-[18px] text-[#696671] hover:font-bold hover:text-[#06286E]'>{item.title}</span>
-     <span className="absolute -bottom-1 left-1/2 w-0 h-[0.1rem] bg-[#06286E] group-hover:w-1/2 group-hover:transition-all"></span>
-     <span className="absolute -bottom-1 right-1/2 w-0 h-[0.1rem] bg-[#06286E] group-hover:w-1/2 group-hover:transition-all"></span>
-   </p>
+      <p key={index} className="relative group ">
+      <span className={`font-inter text-[15px] md:text-[18px]    ${item.title === "Study" ? "text-[#06286E] font-bold" : "text-[#696671] hover:font-bold hover:text-[#06286E]"}`}>{item.title}</span>
+      <span className={`absolute -bottom-1 left-1/2 w-0 h-[0.1rem] bg-[#06286E] ${item.title === "Study" ? "w-1/2 " : "group-hover:w-1/2 group-hover:transition-all"}`}>
+</span>
+
+      <span className={`absolute -bottom-1 right-1/2 w-0 h-[0.1rem] bg-[#06286E] ${item.title === "Study" ? "w-1/2 " : "group-hover:w-1/2 group-hover:transition-all"}`}></span>
+    </p>
    ))}
     </div>
     {/*  */}
