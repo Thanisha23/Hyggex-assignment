@@ -35,12 +35,12 @@ const App:React.FC = () => {
     { label: 'Relation and Function',link:'/Relationandfunction' },
   ];
   return (
-    <div className='md:px-[103px] px-[40px] pt-[30px]'>
+    <div className='md:px-[103px] pt-[30px]'>
 
     <Navbar />
     <Breadcrumbs items={breadcrumbItems} />
     <Dashboard />
-    <div className='mt-[80px] md:mt-[154.4px] font-inter text-[48px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] mb-[48px]'>
+    <div className='mt-[80px] md:mt-[154.4px] font-inter text-[48px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] mb-[48px] px-[14px]'>
       FAQ
     </div>
    <div className='mb-[9rem]'>

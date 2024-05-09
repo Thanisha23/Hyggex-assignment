@@ -14,7 +14,7 @@ const Faqs: React.FC<FaqsItemProps> = ({ title, description }) => {
     };
 
     return (
-        <div className='border border-gray-300 rounded-[12px] mb-[32px] md:w-[848px] border-gradient'>
+        <div className='border border-gray-300 rounded-[12px] mb-[32px] w-[95%] md:w-[848px] border-gradient md:ml-[0px] mx-[14px]'>
             <div onClick={toggleArrow} className='flex justify-between items-center px-4 py-4 cursor-pointer pt-[18px] font-inter'>
                 <h3 className='font-semibold text-[13px] md:text-[15px]'>{title}</h3>
                 <div className="transform transition-transform">

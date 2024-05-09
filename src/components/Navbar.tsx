@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="w-[100%] bg-white flex justify-between items-center pb-[68px]">
+    <div className="w-[100%] bg-white flex justify-between items-center pb-[68px] px-[30px]">
       <img className="md:w-[191px] w-[150px] h-[31px] md:h-[39px]" src="./hyggeX-logo.png" alt="Logo" />
       <div className="hidden md:flex justify-center items-center gap-[40px] text-[18px] font-inter">
         <ul className="flex justify-center items-center gap-[40px] text-[#3A3740]">
