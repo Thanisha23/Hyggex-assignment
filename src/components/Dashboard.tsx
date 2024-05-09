@@ -47,8 +47,8 @@ const Dashboard:React.FC = () => {
         <img  className='absolute w-[27px] h-[27px] md:w-[30px] md:h-[30px] left-[50px] md:top-6 top-8' src="./replay.png" alt="replay" />
     </div>
    </div>
-   <div className='md:pt-[91.80px] pt-[80px] flex justify-center items-center sm:gap-[10rem] gap-[4rem] md:gap-[40rem] p-[4px] mx-[15px]'>
-    <img className='md:w-[217px] w-[130px] h-[93px] md:h-[120.6px]' src="./logo-2.png" alt="HyggeX" />
+   <div className='md:pt-[91.80px] pt-[80px] flex justify-center items-center sm:gap-[10rem] gap-[4rem] md:gap-[40rem] p-[4px] mx-[10px]'>
+    <img className='md:w-[217px] w-[145px] h-[100px] md:h-[120.6px]' src="./logo-2.png" alt="HyggeX" />
     <div className='flex justify-center items-center gap-[8px]'>
         <img className='md:w-[45px] w-[30px] h-[30px] md:h-[45px]' src="./plus.png" alt="create" />
         <h2 className='font-inter text-[15px] md:text-[20px] font-semibold bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] leading-4'>Create Flashcard</h2>

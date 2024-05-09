@@ -40,7 +40,7 @@ const App:React.FC = () => {
     <Navbar />
     <Breadcrumbs items={breadcrumbItems} />
     <Dashboard />
-    <div className='mt-[80px] md:mt-[154.4px] font-inter text-[48px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] mb-[48px] px-[14px]'>
+    <div className='mt-[80px] md:mt-[154.4px] font-inter text-[39px] md:text-[48px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#06286E] to-[#164EC0] mb-[48px] px-[14px]'>
       FAQ
     </div>
    <div className='mb-[9rem]'>
