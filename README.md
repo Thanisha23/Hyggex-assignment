@@ -1,4 +1,4 @@
-<h1 align="center">Component for Hyggex</h1>
+<h1 align="center">Hyggex</h1>
 <p align="center">
   <img src="./public/desktop-1.png" alt="hyggex">
 </p>
