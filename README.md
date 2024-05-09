@@ -49,21 +49,21 @@
 
 1. Clone the repository
 
-bash
+```
 git clone https://github.com/Thanisha23/Hyggex-assignment.git
-
+```
 
 2. Navigate to the project directory and install dependencies for the project
 
-bash
+```
 npm install
-
+```
 
 3. Start the development server
 
-bash
+```
 npm run dev
-
+```
 
 <div align="center"><h4>Consider giving the project a star ⭐</h4></div>
 <div align="center"><h4>Made by Thanisha Belchada</h4></div>
